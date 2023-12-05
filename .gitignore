@@ -13,7 +13,7 @@ yarn-error.log
 test/cypress/screenshots
 test/cypress/videos
 
-dist/
+dist/vendor.LICENSE.txt
 
 coverage/
 .nyc_output/

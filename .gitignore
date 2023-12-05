@@ -17,3 +17,5 @@ dist/vendor.LICENSE.txt
 
 coverage/
 .nyc_output/
+
+example/tools

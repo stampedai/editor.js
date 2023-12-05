@@ -49,7 +49,7 @@
     "@types/node": "^18.15.11",
     "chai-subset": "^1.6.0",
     "codex-notifier": "^1.1.2",
-    "codex-tooltip": "^1.0.5",
+    "codex-tooltip": "https://github.com/stampedai/codex.tooltips.git#nonce-tooltip-fix",
     "core-js": "3.30.0",
     "cypress": "^12.9.0",
     "cypress-intellij-reporter": "^0.0.7",

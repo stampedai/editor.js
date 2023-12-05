@@ -3020,10 +3020,10 @@ var _e = {}, Co = {
         return s;
       });
       class s {
-        constructor() {
+        constructor(a) {
           this.nodes = { wrapper: null, content: null }, this.showed = !1, this.offsetTop = 10, this.offsetLeft = 10, this.offsetRight = 10, this.hidingDelay = 0, this.handleWindowScroll = () => {
             this.showed && this.hide(!0);
-          }, this.loadStyles(), this.prepare(), window.addEventListener("scroll", this.handleWindowScroll, { passive: !0 });
+          }, this.loadStyles(a), this.prepare(), window.addEventListener("scroll", this.handleWindowScroll, { passive: !0 });
         }
         get CSS() {
           return { tooltip: "ct", tooltipContent: "ct__content", tooltipShown: "ct--shown", placement: { left: "ct--left", bottom: "ct--bottom", right: "ct--right", top: "ct--top" } };
@@ -3076,12 +3076,12 @@ var _e = {}, Co = {
         prepare() {
           this.nodes.wrapper = this.make("div", this.CSS.tooltip), this.nodes.content = this.make("div", this.CSS.tooltipContent), this.append(this.nodes.wrapper, this.nodes.content), this.append(document.body, this.nodes.wrapper);
         }
-        loadStyles() {
-          const a = "codex-tooltips-style";
-          if (document.getElementById(a))
+        loadStyles(a) {
+          const l = "codex-tooltips-style";
+          if (document.getElementById(l))
             return;
-          const l = i(2), d = this.make("style", null, { textContent: l.toString(), id: a });
-          this.prepend(document.head, d);
+          const d = i(2), u = this.make("style", null, { textContent: d.toString(), id: l });
+          a && u.setAttribute("nonce", a), this.prepend(document.head, u);
         }
         placeBottom(a, l) {
           const d = a.getBoundingClientRect(), u = d.left + a.clientWidth / 2 - this.nodes.wrapper.offsetWidth / 2, h = d.bottom + window.pageYOffset + this.offsetTop + l.marginTop;

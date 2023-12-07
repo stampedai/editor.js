@@ -550,17 +550,15 @@
     debug "^3.1.0"
     lodash.once "^4.1.1"
 
-"@editorjs/code@^2.7.0":
-  version "2.8.0"
-  resolved "https://registry.yarnpkg.com/@editorjs/code/-/code-2.8.0.tgz#d31fdd947b9c763daae2cd2eabdf8dc37c0c6f5a"
-  integrity sha512-qlv1OqSEPKnLv/ZQgNFmVgqsMbGDkh/qgTEnbVWsS+yujo1nlwgVkqCB8tOkQGVsrpmAYLiWRlA413nKxxCN5w==
+"@editorjs/code@https://github.com/stampedai/editorjs-code.git#dist":
+  version "2.9.1"
+  resolved "https://github.com/stampedai/editorjs-code.git#83c0ddf5e975fb2bc6748bb5c500ee79feefd2af"
   dependencies:
     "@codexteam/icons" "^0.0.5"
 
-"@editorjs/delimiter@^1.2.0":
-  version "1.3.0"
-  resolved "https://registry.yarnpkg.com/@editorjs/delimiter/-/delimiter-1.3.0.tgz#abc4c5b1e512c09ec6cd0c57f41e36434fbd4da4"
-  integrity sha512-/qz+3yRSPmx6dJpBcwnDfgKtCjOrCsQRoDhXR+wLWirGOchOifhYwQ/6JZyTvcgmY84UEoYY29/dgdWOGVPEEQ==
+"@editorjs/delimiter@https://github.com/stampedai/editorjs-delimiter.git#dist":
+  version "1.4.1"
+  resolved "https://github.com/stampedai/editorjs-delimiter.git#801ba59bdc5d4046edfd0efcdfc46d8aa457e4bf"
   dependencies:
     "@codexteam/icons" "^0.0.5"
 
@@ -576,10 +574,9 @@
   dependencies:
     "@codexteam/icons" "^0.0.4"
 
-"@editorjs/simple-image@^1.4.1":
-  version "1.5.1"
-  resolved "https://registry.yarnpkg.com/@editorjs/simple-image/-/simple-image-1.5.1.tgz#a4b96f3dcabcf3db0770591d345d11470f218603"
-  integrity sha512-eXfNzYMOPE7I/HllX00XvEO1MGiFu34lzOIyQzxQ3GdD+GlEJgIN9IhLGN7glsyAhCVmNyxNXGa9kUHzWQ9c5Q==
+"@editorjs/simple-image@https://github.com/stampedai/editorjs-simple-image.git#dist":
+  version "1.6.1"
+  resolved "https://github.com/stampedai/editorjs-simple-image.git#155ebdc563700fb4bbb38316decc7d1399810c63"
   dependencies:
     "@codexteam/icons" "^0.0.6"
 
